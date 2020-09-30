@@ -17,3 +17,5 @@ npm install
 ```
 
 Done!
+
+![Demo Image](Demo.png)
