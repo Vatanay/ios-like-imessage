@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>IOS like iMessage Interface</title>
+    <meta name="description" content="IOS like iMessage Interface">
+    <meta name="author" content="Vatanay">
+    <link rel="stylesheet" href="dist/responsive-chat.css">
+</head>
+
+<body>
+    <div class="iphone">
+        <div class="border">
+            <div class="responsive-html5-chat">
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="dist/responsive-chat.js"></script>
+    <script>
+        /* Activating chatbox on element */
+        responsiveChat('.responsive-html5-chat');
+
+        /* Let's push some dummy data */
+        responsiveChatPush('.chat', 'Kate', 'me', '08.03.2017 14:30:7', 'It looks beautiful!');
+        responsiveChatPush('.chat', 'John Doe', 'you', '08.03.2016 14:31:22', 'It looks like the iPhone message box.');
+        responsiveChatPush('.chat', 'Kate', 'me', '08.03.2016 14:33:32', 'Yep, is this design responsive?');
+        responsiveChatPush('.chat', 'Kate', 'me', '08.03.2016 14:36:4', 'By the way when I hover on my message it shows date.');
+        responsiveChatPush('.chat', 'John Doe', 'you', '08.03.2016 14:37:12', 'Yes, this is completely responsive.');
+    </script>
+</body>
+
+</html>
